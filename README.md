@@ -12,7 +12,8 @@
 
 
 **gpt-story-genius** 是一个自动创作小说的AI，它可以在几分钟内根据用户提供的初始提示和章节数生成一整本奇幻小说，并自动打包为电子书格式。
-该项目利用 **GPT-4**、**Stable Diffusion API** 和 **Anthropic API** 等一系列大模型调用组成的链来生成原创奇幻小说。<br/>
+该项目利用 **GPT-4**、**Stable Diffusion API** 和 **Anthropic API** 等一系列大模型调用组成的链来生成原创奇幻小说。<br>
+
 此外，它还可以根据这本书创建一个原创封面，并将整本作品一次性转换为PDF或电子书格式，并且`制作成本低廉，制作一本15章的小说仅需4美元成本`，并且该工具是开源的，可以免费使用。
 <br>
 
@@ -77,8 +78,10 @@ nohup gradio run.py > log.txt 2>&1 &
 启动成功后，访问8000端口即可打开 **StoryGenius** 项目主页，如需要修改端口，只需要编辑 `run.py` 最后一行中的 `server_port` 即可。
 <br><br>
 <p>生成完的小说Epub文可以下载其文件并在 https://www.fviewer.com/view-epub 上查看，或将其安装在 Kindle 等上。（Mac上直接预览）</p>
-<br>
 
 ![poster](https://github.com/Crossme0809/frenzy_repo/blob/main/assets/novel_epub.png)
 
+## 特别说明
+
+本项目基于[gpt-author](https://github.com/mshumer/gpt-author)开发，由[@mattshumer_](https://twitter.com/mattshumer_)创建。
 
