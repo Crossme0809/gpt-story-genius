@@ -1,0 +1,6 @@
+openai==0.28.0
+EbookLib==0.18
+anthropic==0.3.11
+python-dotenv==1.0.0
+gradio==3.42.0
+tenacity==8.2.3
